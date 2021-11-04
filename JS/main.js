@@ -4,8 +4,8 @@ var planeTicket = 500;
 var hotelCost = 250;
 var museumCost = 120;
 
-var euro = prompt("how much is 1 euro in soum?");
-var dollar = prompt("how much is 1$ in soum?");
+var euro = prompt("how much does 1 euro costs in soum?");
+var dollar = prompt("how much does 1$ costs in soum?");
 
 var userMoneySoum = (planeTicket+hotelCost)*dollar+museumCost*euro
 
